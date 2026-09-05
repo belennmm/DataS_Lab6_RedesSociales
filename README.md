@@ -114,7 +114,7 @@ pip install networkx pysentimiento
 
 ## Cómo ejecutar las secciones 5 a 7
 
-1. Asegurate de haber ejecutado previamente las secciones 1 a 4 y de tener disponibles:
+1. Asegurarse de haber ejecutado previamente las secciones 1 a 4 y de tener disponibles:
 
    - `nodos_bipartita.csv`
    - `aristas_bipartita.csv`
