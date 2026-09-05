@@ -76,7 +76,7 @@ python -c "import nltk; nltk.download('stopwords')"
 ```bash
 pip install networkx pysentimiento
 ```
-```
+
 
 ## Cómo ejecutar el análisis
 
