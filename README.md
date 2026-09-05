@@ -2,9 +2,11 @@
 **CC3084 – Data Science | Universidad del Valle de Guatemala**
 Melisa Mendizabal · Belén Monterroso · Renato Rojas
 
-Este README cubre el **avance** entregado (secciones 1 a 4 del laboratorio):
-carga e integración de datos, calidad y limpieza, análisis exploratorio, y
-construcción de la red bipartita autor–video.
+Este README cubre el documento final entregado (secciones 1 a 10 del
+laboratorio): carga e integración de datos, calidad y limpieza, análisis
+exploratorio, construcción de la red bipartita autor–video, proyecciones,
+topología, comunidades, centralidad/nodos puente, análisis de contenido y
+sentimiento, e interpretación/conclusiones finales.
 
 ## Contenido del repositorio
 
@@ -40,11 +42,20 @@ construcción de la red bipartita autor–video.
 │   ├── temas_frecuentes_por_comunidad.csv
 │   ├── sentimiento_comentarios.csv
 │   └── sentimiento_por_comunidad.csv
+├── fase_8_centralidad/
+│   ├── centralidad_completa.csv
+│   ├── efecto_remocion_autores_puente.csv
+│   └── efecto_remocion_videos.csv
+├── fase_9_sentimiento/
+│   ├── sentimiento_por_video.csv
+│   └── sentimiento_por_canal.csv
 └── graficos/
     ├── 05_red_autor_autor.png
     ├── 06_red_video_video.png
     ├── 06_distribucion_grados.png
-    └── 07_red_comunidades_autor_autor.png
+    ├── 07_red_comunidades_autor_autor.png
+    ├── 10_sentimiento_global.png
+    └── 11_sentimiento_video_canal.png
 └── README.md
 ```
 
@@ -129,3 +140,46 @@ pip install networkx pysentimiento
 | 5 | Construcción de las proyecciones autor–autor y video–video, validación de pesos y visualización |
 | 6 | Métricas estructurales, distribución de grados, componentes conexos, cohesión, transitividad y análisis de nodos aislados/periféricos |
 | 7 | Detección de comunidades con Louvain, modularidad, caracterización por autores, videos, canales, temas frecuentes y sentimiento  |
+
+## Cómo ejecutar las secciones 8 a 10
+
+1. Asegurarse de haber ejecutado previamente las secciones 1 a 7 y de tener disponibles:
+
+   - `nodos_bipartita.csv`, `aristas_bipartita.csv`, `comments_clean.csv`
+   - `fase_5_proyecciones/aristas_autor_autor.csv` y `aristas_video_video.csv`
+   - `fase_7_comunidades/autores_comunidades.csv`,
+     `temas_frecuentes_por_comunidad.csv` y `sentimiento_por_comunidad.csv`
+
+2. Continua en `Lab6_Proyecciones.ipynb` (las secciones 8 a 10 están al final
+   del mismo notebook). A partir de la celda que reconstruye `G_bipartita`,
+   `G_aa` y `G_vv` desde los CSV ya exportados, por lo que no depende de
+   haber corrido en la misma sesión las celdas de las secciones 5 a 7.
+
+3. Ejecuta las celdas en orden, de arriba hacia abajo. Si
+   `fase_7_comunidades/sentimiento_comentarios.csv` ya existe, la sección 9
+   lo reutiliza directamente; si no existe, lo vuelve a calcular con
+   `pysentimiento` (puede tardar varios minutos según la cantidad de
+   comentarios).
+
+| Sección | Contenido |
+|---|---|
+| 8 | Medidas de centralidad (grado, betweenness, closeness, PageRank, eigenvector) sobre la red bipartita y sus proyecciones; interpretación separada para autores (recurrencia y diversidad) y videos (alcance y capacidad de conectar audiencias); identificación de autores puente y videos articuladores mediante simulación de remoción y puntos de articulación |
+| 9 | Análisis de sentimiento con pysentimiento (RoBERTuito) sobre `texto_original`; comparación de sentimiento por video, canal y comunidad; cruce con los temas frecuentes de cada comunidad |
+| 10 | Interpretación de hallazgos en el contexto de participación en YouTube, discusión explícita de limitaciones (cobertura, selección por consultas, fechas relativas, conteos observados, ausencia de relaciones autor–autor explícitas, concentración de comentarios), distinción entre descripción/asociación/inferencia, y conclusiones integradas |
+
+## Notas importantes (secciones 8 a 10)
+
+- Las medidas de centralidad y los nodos "puente"/"articuladores" describen
+  patrones de co-participación observada, no relaciones sociales reales:
+  un autor con betweenness alto es, únicamente, el único punto de solapamiento
+  observado entre dos grupos de comentaristas en esta muestra.
+- El análisis de sentimiento se corre sobre `texto_original` (no sobre
+  `texto_limpio`), porque la limpieza de la sección 2 elimina señales
+  relevantes para el modelo (puntuación, mayúsculas, emojis).
+- Las comparaciones de sentimiento por video/canal se restringen a grupos con
+  al menos 5 comentarios, para evitar interpretar porcentajes calculados
+  sobre muestras demasiado pequeñas.
+- Ninguno de los hallazgos de las secciones 8 a 10 debe generalizarse más
+  allá de los 19 videos con comentarios en esta muestra; la sección 10.3
+  del notebook detalla explícitamente qué es descripción, qué es asociación
+  y qué queda fuera de lo que estos datos permiten inferir.
