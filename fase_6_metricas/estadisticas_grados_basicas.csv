@@ -1,0 +1,4 @@
+Red,Grado_minimo,Grado_maximo,Grado_promedio,Grado_mediana,Desviacion_estandar,Nodos_grado_0,Nodos_grado_1
+Bipartita,1,128,1.9544159544159545,1.0,7.705267125026073,0,327
+Autor-Autor,0,183,64.65060240963855,48.0,51.7544442501038,4,2
+Video-Video,0,4,1.1578947368421053,1.0,1.3480261552490207,9,3

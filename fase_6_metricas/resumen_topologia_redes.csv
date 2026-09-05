@@ -1,0 +1,5 @@
+Red,Tipo_Nodo,Cantidad,Grado_min,Grado_max,Grado_prom,Grado_mediana
+Bipartita,Autores,332,1,3,1.03,1.0
+Bipartita,Videos,19,1,128,18.05,7.0
+Autor-Autor,Autores,332,0,183,64.65,48.0
+Video-Video,Videos,19,0,4,1.16,1.0

@@ -1,0 +1,4 @@
+Red,Nodos,Aristas,Densidad,Grado_promedio,Diametro,Numero_componentes,Transitividad,Clustering_bipartito_promedio,Node_connectivity_comp_mayor,Edge_connectivity_comp_mayor
+Bipartita,351,343,0.05437539632213063,1.9544159544159545,N/A (desconectada),10,,0.9422687146476998,1,1
+Autor-Autor,332,10732,0.19531904051250318,64.65060240963855,N/A (desconectada),10,0.9840254741148836,,1,5
+Video-Video,19,11,0.06432748538011696,1.1578947368421053,N/A (desconectada),10,0.3157894736842105,,1,1

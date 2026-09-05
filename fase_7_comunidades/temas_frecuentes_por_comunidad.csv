@@ -1,0 +1,240 @@
+community_id,tipo,termino,frecuencia,ranking
+1,palabra,pueblo,50,1
+1,palabra,diputado,48,2
+1,palabra,pagar,36,3
+1,palabra,hacer,35,4
+1,palabra,dinero,27,5
+1,palabra,trabajo,21,6
+1,palabra,decir,21,7
+1,palabra,sueldo,20,8
+1,palabra,cara,19,9
+1,palabra,dar,18,10
+1,bigrama,bandera guatemala,8,1
+1,bigrama,morir hambre,7,2
+1,bigrama,cara llorar,7,3
+1,bigrama,llorar risa,7,4
+1,bigrama,ser diputado,7,5
+1,bigrama,cara cabreado,6,6
+1,bigrama,cara sonreir,6,7
+1,bigrama,sonreir sudor,6,8
+1,bigrama,sudor frío,6,9
+1,bigrama,demonio japonés,6,10
+2,palabra,cara,31,1
+2,palabra,presidente,26,2
+2,palabra,guatemala,21,3
+2,palabra,risa,21,4
+2,palabra,llorar,20,5
+2,palabra,hacer,17,6
+2,palabra,mano,17,7
+2,palabra,cañón,14,8
+2,palabra,confeti,14,9
+2,palabra,país,13,10
+2,bigrama,cara llorar,20,1
+2,bigrama,llorar risa,20,2
+2,bigrama,risa cara,18,3
+2,bigrama,cañón confeti,14,4
+2,bigrama,hacia arriba,12,5
+2,bigrama,mano aplaudir,11,6
+2,bigrama,pulgar hacia,11,7
+2,bigrama,presidente bernardo,9,8
+2,bigrama,bernardo arevalo,8,9
+2,bigrama,arriba cañón,5,10
+3,palabra,cara,13,1
+3,palabra,corrupto,10,2
+3,palabra,usac,9,3
+3,palabra,boca,8,4
+3,palabra,abierto,8,5
+3,palabra,poder,7,6
+3,palabra,estudiante,7,7
+3,palabra,mano,7,8
+3,palabra,universidad,6,9
+3,palabra,información,6,10
+3,bigrama,cara boca,8,1
+3,bigrama,boca abierto,8,2
+3,bigrama,mano aplaudir,6,3
+3,bigrama,abierto cara,6,4
+3,bigrama,aplaudir mano,5,5
+3,bigrama,pacto corrupto,4,6
+3,bigrama,todo institución,3,7
+3,bigrama,reunión virtual,2,8
+3,bigrama,san carlos,2,9
+3,bigrama,urgente fiscalizar,2,10
+4,palabra,excelente,11,1
+4,palabra,hacer,10,2
+4,palabra,empresa,9,3
+4,palabra,poder,8,4
+4,palabra,solo,7,5
+4,palabra,internet,7,6
+4,palabra,ley,7,7
+4,palabra,dar,6,8
+4,palabra,decir,5,9
+4,palabra,seguir,5,10
+4,bigrama,hand purple,3,1
+4,bigrama,purple blue,3,2
+4,bigrama,blue peace,3,3
+4,bigrama,ley competencia,3,4
+4,bigrama,libre mercado,3,5
+4,bigrama,peace hand,2,6
+4,bigrama,hacer recarga,2,7
+4,bigrama,vomitar cara,2,8
+4,bigrama,cara enfadado,2,9
+4,bigrama,billete dólar,2,10
+5,palabra,guatemala,24,1
+5,palabra,ciudad,9,2
+5,palabra,saludo,7,3
+5,palabra,proyecto,6,4
+5,palabra,bandera,5,5
+5,palabra,vivir,4,6
+5,palabra,tiempo,4,7
+5,palabra,cara,3,8
+5,palabra,fiesta,3,9
+5,palabra,corazón,3,10
+5,bigrama,ciudad guatemala,6,1
+5,bigrama,bandera guatemala,5,2
+5,bigrama,guatemala saludo,4,3
+5,bigrama,guatemala bandera,3,4
+5,bigrama,cara fiesta,3,5
+5,bigrama,vivo guatemala,2,6
+5,bigrama,fiesta cara,2,7
+5,bigrama,saludo salvador,2,8
+5,bigrama,cuidad guatemala,2,9
+5,bigrama,alguno día,2,10
+6,palabra,cara,6,1
+6,palabra,llorar,6,2
+6,palabra,you,6,3
+6,palabra,país,5,4
+6,palabra,deportar,4,5
+6,palabra,entrar,4,6
+6,palabra,pais,4,7
+6,palabra,usa,3,8
+6,palabra,ver,3,9
+6,palabra,hacer,3,10
+6,bigrama,cara llorar,6,1
+6,bigrama,you don,2,2
+6,bigrama,entrar ilegalmente,2,3
+6,bigrama,llorar risa,2,4
+6,bigrama,llorar cara,2,5
+6,bigrama,avión avión,2,6
+6,bigrama,salir usa,1,7
+6,bigrama,usa propio,1,8
+6,bigrama,propio pie,1,9
+6,bigrama,pie auto,1,10
+7,palabra,bandera,4,1
+7,palabra,país,4,2
+7,palabra,unidos,4,3
+7,palabra,asqueroso,3,4
+7,palabra,hacer,2,5
+7,palabra,gasolina,2,6
+7,palabra,mas,2,7
+7,palabra,guerra,2,8
+7,palabra,guatemala,2,9
+7,palabra,galón,2,10
+7,bigrama,bandera unidos,3,1
+7,bigrama,unidos bandera,2,2
+7,bigrama,puro show,1,3
+7,bigrama,show solo,1,4
+7,bigrama,solo diputranza,1,5
+7,bigrama,diputranza dar,1,6
+7,bigrama,dar parte,1,7
+7,bigrama,parte autorizar,1,8
+7,bigrama,autorizar subsidio,1,9
+7,bigrama,subsidio gas,1,10
+8,palabra,iniciativa,3,1
+8,palabra,juego,2,2
+8,palabra,excelente,2,3
+8,palabra,ver,1,4
+8,palabra,deporte,1,5
+8,palabra,dinamico,1,6
+8,palabra,entretenido,1,7
+8,palabra,trasfondo,1,8
+8,palabra,bastante,1,9
+8,palabra,macabro,1,10
+8,bigrama,excelente iniciativa,2,1
+8,bigrama,ver deporte,1,2
+8,bigrama,deporte dinamico,1,3
+8,bigrama,dinamico entretenido,1,4
+8,bigrama,entretenido trasfondo,1,5
+8,bigrama,trasfondo juego,1,6
+8,bigrama,juego bastante,1,7
+8,bigrama,bastante macabro,1,8
+8,bigrama,macabro reflejar,1,9
+8,bigrama,reflejar oscuridad,1,10
+9,palabra,guatemala,2,1
+9,palabra,solo,1,2
+9,palabra,cambiar,1,3
+9,palabra,dictadura,1,4
+9,palabra,cada,1,5
+9,palabra,año,1,6
+9,palabra,ver,1,7
+9,palabra,semilla,1,8
+9,palabra,bernardo,1,9
+9,palabra,arévalo,1,10
+9,bigrama,guatemala solo,1,1
+9,bigrama,solo cambiar,1,2
+9,bigrama,cambiar dictadura,1,3
+9,bigrama,dictadura cada,1,4
+9,bigrama,cada año,1,5
+9,bigrama,ver semilla,1,6
+9,bigrama,semilla bernardo,1,7
+9,bigrama,bernardo arévalo,1,8
+9,bigrama,arévalo oportunidad,1,9
+9,bigrama,oportunidad guatemala,1,10
+10,palabra,persona,1,1
+10,palabra,encargado,1,2
+10,palabra,ecosistema,1,3
+10,palabra,ayudar,1,4
+10,palabra,problema,1,5
+10,palabra,recuerdo,1,6
+10,palabra,dejar,1,7
+10,palabra,semiya,1,8
+10,palabra,perder,1,9
+10,palabra,arma,1,10
+10,bigrama,persona encargado,1,1
+10,bigrama,encargado ecosistema,1,2
+10,bigrama,ecosistema ayudar,1,3
+10,bigrama,ayudar problema,1,4
+10,bigrama,recuerdo dejar,1,5
+10,bigrama,dejar semiya,1,6
+10,bigrama,semiya perder,1,7
+10,bigrama,perder arma,1,8
+10,bigrama,arma delincuencia,1,9
+10,bigrama,delincuencia reduse,1,10
+11,palabra,wooow,1,1
+12,palabra,teléfono,2,1
+12,palabra,decir,2,2
+12,palabra,existir,2,3
+12,palabra,subscribir,1,4
+12,palabra,boletín,1,5
+12,palabra,informativo,1,6
+12,palabra,intentar,1,7
+12,palabra,pagina,1,8
+12,palabra,web,1,9
+12,palabra,colocado,1,10
+12,bigrama,subscribir boletín,1,1
+12,bigrama,boletín informativo,1,2
+12,bigrama,informativo intentar,1,3
+12,bigrama,intentar pagina,1,4
+12,bigrama,pagina web,1,5
+12,bigrama,web teléfono,1,6
+12,bigrama,teléfono colocado,1,7
+12,bigrama,colocado decir,1,8
+12,bigrama,decir telguo,1,9
+12,bigrama,telguo existir,1,10
+13,palabra,corazón,1,1
+13,palabra,rojo,1,2
+13,palabra,cañón,1,3
+13,palabra,confeti,1,4
+13,bigrama,corazón rojo,1,1
+13,bigrama,rojo cañón,1,2
+13,bigrama,cañón confeti,1,3
+14,palabra,gracias,1,1
+14,palabra,video,1,2
+14,palabra,importante,1,3
+14,palabra,conocer,1,4
+14,palabra,tipo,1,5
+14,palabra,espacio,1,6
+14,bigrama,gracias video,1,1
+14,bigrama,video importante,1,2
+14,bigrama,importante conocer,1,3
+14,bigrama,conocer tipo,1,4
+14,bigrama,tipo espacio,1,5
