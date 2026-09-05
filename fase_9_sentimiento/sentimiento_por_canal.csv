@@ -1,0 +1,8 @@
+channel_name,NEG,NEU,POS,total,pct_NEG,pct_NEU,pct_POS
+Quorum,180,39,37,256,70.3,15.2,14.5
+Gobierno de la República de Guatemala,35,18,17,70,50.0,25.7,24.3
+Municipalidad de Guatemala,2,3,20,25,8.0,12.0,80.0
+Noticias Telemundo,16,6,3,25,64.0,24.0,12.0
+Noti7,4,7,3,14,28.6,50.0,21.4
+PrensaLibreOficial,6,1,0,7,85.7,14.3,0.0
+TN23 Guatemala,6,1,0,7,85.7,14.3,0.0
