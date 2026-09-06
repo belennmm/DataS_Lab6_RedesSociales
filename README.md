@@ -173,6 +173,7 @@ pip install networkx pysentimiento
   patrones de co-participación observada, no relaciones sociales reales:
   un autor con betweenness alto es, únicamente, el único punto de solapamiento
   observado entre dos grupos de comentaristas en esta muestra.
+- Una arista autor–autor representa coparticipación en videos. Una comunidad detectada representa un agrupamiento estructural de coparticipación. 
 - El análisis de sentimiento se corre sobre `texto_original` (no sobre
   `texto_limpio`), porque la limpieza de la sección 2 elimina señales
   relevantes para el modelo (puntuación, mayúsculas, emojis).
